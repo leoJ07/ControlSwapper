@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "control-swapper",
+  "version": "${version}",
+  "name": "ControlSwapper",
+  "description": "A minecraft mod for fabric that enables you to swap two players controls",
+  "authors": [
+    "leoJ07"
+  ],
+  "contact": {
+    "repo": "https://github.com/leoJ07/ControlSwapper"
+  },
+  "license": "MIT",
+  "icon": "assets/ControlSwapper/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.leoj07.controlswapper.client.ControlSwapperClient"
+    ],
+    "main": [
+      "net.leoj07.controlswapper.ControlSwapper"
+    ]
+  },
+  "mixins": [
+    "ControlSwapper.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
