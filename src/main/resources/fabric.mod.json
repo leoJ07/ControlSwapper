@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "control-swapper",
+  "id": "controlswapper",
   "version": "${version}",
   "name": "ControlSwapper",
   "description": "A minecraft mod for fabric that enables you to swap two players controls",

@@ -4,10 +4,14 @@
   "package": "net.leoj07.controlswapper.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-
+    "MouseAccessor"
   ],
   "client": [
-    "KeyBindingMixin"
+    "KeyBindingAccessor",
+    "KeyBindingMixin",
+    "KeyboardMixin",
+    "MouseMixin",
+    "MinecraftClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
